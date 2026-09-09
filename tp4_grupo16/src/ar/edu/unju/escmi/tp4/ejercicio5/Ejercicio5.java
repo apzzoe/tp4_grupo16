@@ -82,7 +82,7 @@ public class Ejercicio5 {
                         System.out.println("La lista de productos está vacía.");
                     } else {
                         Iterator<Integer> it = productos.keySet().iterator();
-                        System.out.println("\n--- LISTADO DE PRODUCTOS (Orden Natural) ---");
+                        System.out.println("--- LISTADO DE PRODUCTOS ---");
                         while (it.hasNext()) {
                             Integer claveActual = it.next();
                             System.out.println("Clave: " + claveActual + " -> Valor: " + productos.get(claveActual));
